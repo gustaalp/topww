@@ -1,0 +1,38 @@
+body {
+    background-color: #d3d3d3; /* Cor neutra inspirada na época */
+    font-family: 'Times New Roman', Times, serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    margin: 20px;
+    border: 2px solid #8b4513; /* Borda de madeira */
+    padding: 20px;
+    background-color: #f0e68c; /* Cor inspirada na época */
+    border-radius: 10px;
+}
+
+button {
+    background-color: #8b4513; /* Cor de madeira */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #a0522d; /* Cor mais clara ao passar o mouse */
+}
+
+video {
+    width: 100%;
+    max-width: 100%; /* Ajuste para dispositivos móveis */
+    border: 2px solid #8b4513; /* Borda de madeira */
+    margin-top: 20px;
+}
